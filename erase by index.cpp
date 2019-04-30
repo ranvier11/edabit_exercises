@@ -1,3 +1,18 @@
+/*1. wektor elementów dowolnego typu
+2. wektor indeksów (size_t)
+
+i usunie z wektora 1 elementy o indeksach podanych w wektorze 2.
+
+Przykład:
+
+1. {"alfa", "beta", "gamma", "delta", "epsilon", "dzeta", "eta"}
+2. {0, 2, 5}
+
+W wyniku działania funkcji w wektorze 1 ma pozostać:
+
+{"beta", "delta", "epsilon", "eta"}
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -41,9 +56,9 @@ int main()
 	std::vector<std::string> words { "alfa", "beta", "gamma", "delta", "epsilon", "dzeta", "eta" };
 	std::vector<size_t> indexes{ 0, 2, 5 };
 
-	eraseByIndex(words, indexes);
+	//eraseByIndex(words, indexes);
 	showVec(eraseByIndex(words, indexes));
-	std::cout << eraseByIndex(words, indexes).size();
+	//std::cout << eraseByIndex(words, indexes).size();
 	return 0;
 	
 }
