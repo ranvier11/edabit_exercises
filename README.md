@@ -1,2 +1,2 @@
-"# edabit_exercises" 
-"# edabit_exercises" 
+My solutions to edabit chellenges.
+https://edabit.com/challenges
